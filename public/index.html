@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <title>laserbotsim</title>
+    <style>
+        .ui {
+            display: flex;
+        }
+
+        .ui>* {
+            padding: 1em;
+            margin: 1em;
+            /* border: 1px solid gray; */
+        }
+    </style>
+        
+</head>
+
+<body>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
+    <script src="https://unpkg.com/d3-graphviz@1.4.0/build/d3-graphviz.min.js"></script>
+    <script src="bundle.js"></script>
+
+    <div id="root"></div>
+    <script>
+        App('root')
+    </script>
